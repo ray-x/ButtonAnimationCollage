@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB50EBAB1B898D5D00223655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB50EBAA1B898D5D00223655 /* main.m */; };
+		BB50EBAE1B898D5D00223655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB50EBAD1B898D5D00223655 /* AppDelegate.m */; };
+		BB50EBB11B898D5D00223655 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB50EBB01B898D5D00223655 /* ViewController.m */; };
+		BB50EBB41B898D5D00223655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB50EBB21B898D5D00223655 /* Main.storyboard */; };
+		BB50EBB61B898D5D00223655 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB50EBB51B898D5D00223655 /* Images.xcassets */; };
+		BB50EBB91B898D5D00223655 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB50EBB71B898D5D00223655 /* LaunchScreen.xib */; };
+		BB50EBC51B898D5D00223655 /* ButtonAnimationCollageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB50EBC41B898D5D00223655 /* ButtonAnimationCollageTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB50EBBF1B898D5D00223655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB50EB9D1B898D5D00223655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB50EBA41B898D5D00223655;
+			remoteInfo = ButtonAnimationCollage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB50EBA51B898D5D00223655 /* ButtonAnimationCollage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonAnimationCollage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB50EBA91B898D5D00223655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB50EBAA1B898D5D00223655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB50EBAC1B898D5D00223655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB50EBAD1B898D5D00223655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB50EBAF1B898D5D00223655 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB50EBB01B898D5D00223655 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB50EBB31B898D5D00223655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB50EBB51B898D5D00223655 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB50EBB81B898D5D00223655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BB50EBBE1B898D5D00223655 /* ButtonAnimationCollageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonAnimationCollageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB50EBC31B898D5D00223655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB50EBC41B898D5D00223655 /* ButtonAnimationCollageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonAnimationCollageTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB50EBA21B898D5D00223655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB50EBBB1B898D5D00223655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB50EB9C1B898D5D00223655 = {
+			isa = PBXGroup;
+			children = (
+				BB50EBA71B898D5D00223655 /* ButtonAnimationCollage */,
+				BB50EBC11B898D5D00223655 /* ButtonAnimationCollageTests */,
+				BB50EBA61B898D5D00223655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB50EBA61B898D5D00223655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB50EBA51B898D5D00223655 /* ButtonAnimationCollage.app */,
+				BB50EBBE1B898D5D00223655 /* ButtonAnimationCollageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB50EBA71B898D5D00223655 /* ButtonAnimationCollage */ = {
+			isa = PBXGroup;
+			children = (
+				BB50EBAC1B898D5D00223655 /* AppDelegate.h */,
+				BB50EBAD1B898D5D00223655 /* AppDelegate.m */,
+				BB50EBAF1B898D5D00223655 /* ViewController.h */,
+				BB50EBB01B898D5D00223655 /* ViewController.m */,
+				BB50EBB21B898D5D00223655 /* Main.storyboard */,
+				BB50EBB51B898D5D00223655 /* Images.xcassets */,
+				BB50EBB71B898D5D00223655 /* LaunchScreen.xib */,
+				BB50EBA81B898D5D00223655 /* Supporting Files */,
+			);
+			path = ButtonAnimationCollage;
+			sourceTree = "<group>";
+		};
+		BB50EBA81B898D5D00223655 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB50EBA91B898D5D00223655 /* Info.plist */,
+				BB50EBAA1B898D5D00223655 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB50EBC11B898D5D00223655 /* ButtonAnimationCollageTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB50EBC41B898D5D00223655 /* ButtonAnimationCollageTests.m */,
+				BB50EBC21B898D5D00223655 /* Supporting Files */,
+			);
+			path = ButtonAnimationCollageTests;
+			sourceTree = "<group>";
+		};
+		BB50EBC21B898D5D00223655 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB50EBC31B898D5D00223655 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB50EBA41B898D5D00223655 /* ButtonAnimationCollage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB50EBC81B898D5D00223655 /* Build configuration list for PBXNativeTarget "ButtonAnimationCollage" */;
+			buildPhases = (
+				BB50EBA11B898D5D00223655 /* Sources */,
+				BB50EBA21B898D5D00223655 /* Frameworks */,
+				BB50EBA31B898D5D00223655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonAnimationCollage;
+			productName = ButtonAnimationCollage;
+			productReference = BB50EBA51B898D5D00223655 /* ButtonAnimationCollage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB50EBBD1B898D5D00223655 /* ButtonAnimationCollageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB50EBCB1B898D5D00223655 /* Build configuration list for PBXNativeTarget "ButtonAnimationCollageTests" */;
+			buildPhases = (
+				BB50EBBA1B898D5D00223655 /* Sources */,
+				BB50EBBB1B898D5D00223655 /* Frameworks */,
+				BB50EBBC1B898D5D00223655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB50EBC01B898D5D00223655 /* PBXTargetDependency */,
+			);
+			name = ButtonAnimationCollageTests;
+			productName = ButtonAnimationCollageTests;
+			productReference = BB50EBBE1B898D5D00223655 /* ButtonAnimationCollageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB50EB9D1B898D5D00223655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ray Xu";
+				TargetAttributes = {
+					BB50EBA41B898D5D00223655 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BB50EBBD1B898D5D00223655 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BB50EBA41B898D5D00223655;
+					};
+				};
+			};
+			buildConfigurationList = BB50EBA01B898D5D00223655 /* Build configuration list for PBXProject "ButtonAnimationCollage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB50EB9C1B898D5D00223655;
+			productRefGroup = BB50EBA61B898D5D00223655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB50EBA41B898D5D00223655 /* ButtonAnimationCollage */,
+				BB50EBBD1B898D5D00223655 /* ButtonAnimationCollageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB50EBA31B898D5D00223655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB50EBB41B898D5D00223655 /* Main.storyboard in Resources */,
+				BB50EBB91B898D5D00223655 /* LaunchScreen.xib in Resources */,
+				BB50EBB61B898D5D00223655 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB50EBBC1B898D5D00223655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB50EBA11B898D5D00223655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB50EBB11B898D5D00223655 /* ViewController.m in Sources */,
+				BB50EBAE1B898D5D00223655 /* AppDelegate.m in Sources */,
+				BB50EBAB1B898D5D00223655 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB50EBBA1B898D5D00223655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB50EBC51B898D5D00223655 /* ButtonAnimationCollageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB50EBC01B898D5D00223655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB50EBA41B898D5D00223655 /* ButtonAnimationCollage */;
+			targetProxy = BB50EBBF1B898D5D00223655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB50EBB21B898D5D00223655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB50EBB31B898D5D00223655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB50EBB71B898D5D00223655 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB50EBB81B898D5D00223655 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB50EBC61B898D5D00223655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB50EBC71B898D5D00223655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB50EBC91B898D5D00223655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonAnimationCollage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB50EBCA1B898D5D00223655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ButtonAnimationCollage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB50EBCC1B898D5D00223655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ButtonAnimationCollageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonAnimationCollage.app/ButtonAnimationCollage";
+			};
+			name = Debug;
+		};
+		BB50EBCD1B898D5D00223655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ButtonAnimationCollageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonAnimationCollage.app/ButtonAnimationCollage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB50EBA01B898D5D00223655 /* Build configuration list for PBXProject "ButtonAnimationCollage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB50EBC61B898D5D00223655 /* Debug */,
+				BB50EBC71B898D5D00223655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB50EBC81B898D5D00223655 /* Build configuration list for PBXNativeTarget "ButtonAnimationCollage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB50EBC91B898D5D00223655 /* Debug */,
+				BB50EBCA1B898D5D00223655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB50EBCB1B898D5D00223655 /* Build configuration list for PBXNativeTarget "ButtonAnimationCollageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB50EBCC1B898D5D00223655 /* Debug */,
+				BB50EBCD1B898D5D00223655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB50EB9D1B898D5D00223655 /* Project object */;
+}
