@@ -14,6 +14,7 @@
 		BB50EBB61B898D5D00223655 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB50EBB51B898D5D00223655 /* Images.xcassets */; };
 		BB50EBB91B898D5D00223655 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB50EBB71B898D5D00223655 /* LaunchScreen.xib */; };
 		BB50EBC51B898D5D00223655 /* ButtonAnimationCollageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB50EBC41B898D5D00223655 /* ButtonAnimationCollageTests.m */; };
+		BB50EBD01B8991E700223655 /* UIButton+Effects.m in Sources */ = {isa = PBXBuildFile; fileRef = BB50EBCF1B8991E700223655 /* UIButton+Effects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BB50EBBE1B898D5D00223655 /* ButtonAnimationCollageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonAnimationCollageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB50EBC31B898D5D00223655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB50EBC41B898D5D00223655 /* ButtonAnimationCollageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonAnimationCollageTests.m; sourceTree = "<group>"; };
+		BB50EBCE1B8991E700223655 /* UIButton+Effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Effects.h"; sourceTree = "<group>"; };
+		BB50EBCF1B8991E700223655 /* UIButton+Effects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Effects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				BB50EBB51B898D5D00223655 /* Images.xcassets */,
 				BB50EBB71B898D5D00223655 /* LaunchScreen.xib */,
 				BB50EBA81B898D5D00223655 /* Supporting Files */,
+				BB50EBCE1B8991E700223655 /* UIButton+Effects.h */,
+				BB50EBCF1B8991E700223655 /* UIButton+Effects.m */,
 			);
 			path = ButtonAnimationCollage;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				BB50EBB11B898D5D00223655 /* ViewController.m in Sources */,
 				BB50EBAE1B898D5D00223655 /* AppDelegate.m in Sources */,
+				BB50EBD01B8991E700223655 /* UIButton+Effects.m in Sources */,
 				BB50EBAB1B898D5D00223655 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
